@@ -11,9 +11,9 @@ torna o atributo stereo falso e o método stereo() torna o atributo stereo verda
 o EquipamentoSonoro através do método liga, seu volume é automaticamente ajustado para 
 5.*/
 
-class Equipamento {
+class Equipamento { //classe equipamento
 private:
-    bool ligado;
+    bool ligado; 
 
 public:
     void liga() {
@@ -25,7 +25,7 @@ public:
     }
 };
 
-class EquipamentoSonoro : public Equipamento {
+class EquipamentoSonoro : public Equipamento { //classe EquipamentoSonoro é filha de Equipamento
 private:
     short volume;
     bool _stereo;
