@@ -47,8 +47,8 @@ public:
 int main(void) {
     Pessoa *p[N]; //vetor de ponteiros de Pessoa
     std::string entradaNome; //var para setar nome
-    int entradaDia, entradaMes; //var para setar o dia
-    std::ofstream arq; //var para setar o mes
+    int entradaDia, entradaMes; //var para setar o dia e mes
+    std::ofstream arq; 
     arq.open("arquivo.txt");
 
     for(int i = 0; i < N; i++) {
