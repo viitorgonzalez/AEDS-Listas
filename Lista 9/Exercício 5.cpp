@@ -30,7 +30,7 @@ public:
     }
 
     std::string getDados(){
-        return "Nome: " + this->nome + "\tPreço: " + std::to_string(this->preco) + "\tTelefone: " + this->telefone + "\n";
+        return "Nome: " + this->nome + "\tPreço: " + std::to_string(this->preco) + "\tTelefone: " + this->telefone + "\n"; //dados 
     }
 
     float getPreco() {
@@ -48,7 +48,7 @@ int main(void) {
 
     std::string linhaArq;
     int contadorEletro = 0;
-    while(std::getline(arq, linhaArq)) { //peagr linha por linha do arquivo
+    while(std::getline(arq, linhaArq)) { //pegar linha por linha do arquivo
         
         std::istringstream iss(linhaArq);
         std::string stringSplit;
